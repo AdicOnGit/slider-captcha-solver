@@ -17,7 +17,19 @@ This Python project provides a captcha-solving solution using headless browsing 
 
 ## Installation
 
-To use this captcha solver, you need to have Python installed on your system. You also need to install the following Python libraries:
+To use this captcha solver clone this repository:
+
+```bash
+git clone https://github.com/AdicOnGit/slider-captcha-solver.git
+```
+
+Change directory to slider-captcha-solver:
+
+```bash
+cd slider-captcha-solver
+```
+
+You need to install the following Python libraries:
 
 - [cv2](https://pypi.org/project/opencv-python/)
 - [time](https://docs.python.org/3/library/time.html)
@@ -28,7 +40,7 @@ To use this captcha solver, you need to have Python installed on your system. Yo
 You can install these libraries using pip:
 
 ```bash
-pip install opencv-python time json pillow numpy
+pip install -r requirements.txt
 ```
 
 ## Usage
